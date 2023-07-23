@@ -34,6 +34,12 @@ export function tokenize(input: string): Token[] {
       continue;
     }
 
+    if (char === '-') {
+      tokens.push({ type: 'minus' });
+      current++;
+      continue;
+    }
+
     throw new TypeError('I dont know what this character is: ' + char);
   }
 

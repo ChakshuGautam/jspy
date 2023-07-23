@@ -31,6 +31,14 @@ describe('tokenize', () => {
     ]);
   });
 
+  it('should tokenize a simple subtraction', () => {
+    expect(tokenize('2 - 2')).toEqual([
+      { type: 'number', value: 2 },
+      { type: 'minus' },
+      { type: 'number', value: 2 },
+    ]);
+  });
+
   it('should throw an error for unrecognized characters', () => {
     expect(() => tokenize('2 * 2')).toThrow(TypeError);
   });

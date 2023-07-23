@@ -12,4 +12,8 @@ describe('interpret', () => {
   it('should interpret multiple additions', () => {
     expect(interpret(parse(tokenize('2 + 2 + 3')))).toEqual(7);
   });
+
+  it('should interpret a simple subtraction', () => {
+    expect(interpret(parse(tokenize('2 - 2')))).toEqual(0);
+  });
 });
