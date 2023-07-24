@@ -14,13 +14,9 @@ Was feeling inspired.
 - [PyPy.js](https://github.com/pypyjs/pypyjs)
 - [Skulpt](https://github.com/skulpt/skulpt)
 
-### TODO List
+## TODO List
 
-# Python Interpreter Features
-
-This file tracks the features that we want our Python interpreter to support. As each feature is implemented, we can mark it as complete by checking the box next to it.
-
-## Language Features
+### Language Features
 
 - [x] Integer literals (e.g., "2")
 - [x] Addition (e.g., "2 + 2")
@@ -37,7 +33,7 @@ This file tracks the features that we want our Python interpreter to support. As
 - [ ] Importing Modules (local files only)
 - [ ] Installing Packages (simple version)
 
-## Infrastructure Features
+### Infrastructure Features
 
 - [x] Tokenizer
 - [x] Parser
@@ -45,7 +41,7 @@ This file tracks the features that we want our Python interpreter to support. As
 - [ ] Error reporting (e.g., syntax errors, type errors)
 - [x] Testing infrastructure
 
-## [ ] Packaging
+### Packaging
 
 - [ ] Push this to NPM
 - [ ] Push this to GitHub CDN
