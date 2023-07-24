@@ -34,6 +34,8 @@ This file tracks the features that we want our Python interpreter to support. As
 - [ ] Function application (e.g., "f(2)")
 - [ ] If statements (e.g., "if x > 2: return x else: return 2")
 - [ ] While loops (e.g., "while x > 2: x = x - 1")
+- [ ] Importing Modules (local files only)
+- [ ] Installing Packages (simple version)
 
 ## Infrastructure Features
 
